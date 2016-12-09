@@ -81,7 +81,7 @@ public class MainActivity extends FragmentActivity
             transaction.addToBackStack(null);
 
             // Commit the transaction
-            transaction.commit();
+            transaction.commit();  
         }
     }
 }

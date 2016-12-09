@@ -6,13 +6,13 @@ android {
 
     defaultConfig {
         applicationId "com.example.android.fragments"
-        minSdkVersion 4
+        minSdkVersion 9
         targetSdkVersion 15
     }
 
     buildTypes {
         release {
-            runProguard false
+            //runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
